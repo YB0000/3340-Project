@@ -1,0 +1,91 @@
+{
+    "menuData": [{
+            "entity": {
+                "id": 1,
+                "name": "usersManage",
+                "icon": "el-icon-message",
+                "alias": "Item management"
+            },
+            "childs": [{
+                    "entity": {
+                        "id": 0,
+                        "name": "alluserManage",
+                        "icon": "el-icon-loading",
+                        "alias": "Add item for sale",
+                        "value": {
+                            "path": "/backstage/addCommodity"
+                        }
+                    }
+                },
+                {
+                    "entity": {
+                        "id": 6,
+                        "name": "alluserManage",
+                        "icon": "el-icon-loading",
+                        "alias": "Modify item",
+                        "value": {
+                            "path": "/backstage/adminCommodity"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "entity": {
+                "id": 2,
+                "name": "usersManage",
+                "icon": "el-icon-message",
+                "alias": "User Management"
+            },
+            "childs": [{
+                "entity": {
+                    "id": 3,
+                    "name": "alluserManage",
+                    "icon": "el-icon-loading",
+                    "alias": "User Management",
+                    "value": {
+                        "path": "/backstage/adminUser"
+                    }
+                }
+            }]
+        },
+        {
+            "entity": {
+                "id": 5,
+                "name": "myblog",
+                "icon": "el-icon-message",
+                "alias": "Order management"
+            },
+            "childs": [{
+                "entity": {
+                    "id": 8,
+                    "name": "alluserManage",
+                    "icon": "el-icon-loading",
+                    "alias": "Order management",
+                    "value": {
+                        "path": "/backstage/adminOrder"
+                    }
+                }
+            }]
+        },
+        {
+            "entity": {
+                "id": 20,
+                "name": "myblog",
+                "icon": "el-icon-message",
+                "alias": "Help center"
+            },
+            "childs": [{
+                "entity": {
+                    "id": 16,
+                    "name": "alluserManage",
+                    "icon": "el-icon-loading",
+                    "alias": "Admin doc",
+                    "value": {
+                        "path": "/backstage/help"
+                    }
+                }
+            }]
+        }
+    ]
+}
