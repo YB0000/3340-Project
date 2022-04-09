@@ -12,10 +12,10 @@
 export default {
     data() {
         return {
-            dataList:["http://205.185.124.239:8080/images/1.1.png",
-                      "http://205.185.124.239:8080/images/4.1.png",
-                      "http://205.185.124.239:8080/images/4.2.png",
-                      "http://205.185.124.239:8080/images/9.1.png"
+            dataList:["http://localhost:8080/images/1.1.png",
+                      "http://localhost:8080/images/4.1.png",
+                      "http://localhost:8080/images/4.2.png",
+                      "http://localhost:8080/images/9.1.png"
                       ]
         }
     },

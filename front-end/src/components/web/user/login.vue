@@ -94,7 +94,7 @@ export default {
         });
         return;
       }
-      setDataFromAxios("/api/login", "post", this.user).then((res) => {//res是后端返回来的数据，
+      setDataFromAxios("/api/login", "post", this.user).then((res) => {
         if (res.code == 200) {
             this.userName = false
             this.pwd = false;

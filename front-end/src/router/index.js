@@ -1,7 +1,6 @@
-//整个网站的前端路由,里面包含每个文件的路径，这是整个网页的地图,包括子路径
 import Vue from "vue"
 import VueRouter from 'vue-router'
-
+//整个网站的前端路由,里面包含每个文件的路径，这是整个网页的地图,包括子路径
 Vue.use(VueRouter)
 
 export default new VueRouter({

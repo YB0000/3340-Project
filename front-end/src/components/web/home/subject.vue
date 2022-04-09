@@ -90,7 +90,7 @@ export default {
         }
     },
     toCommodity(coid){
-     window.open(`http://205.185.124.239/#/commodity?coid=${coid}`)
+     window.open(`http://localhost/#/commodity?coid=${coid}`)
     },
     search(){
       if(this.searchValue == ""){

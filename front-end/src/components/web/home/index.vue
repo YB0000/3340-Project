@@ -121,7 +121,7 @@ export default {
       this.uploadisShow = true;
     },
     userData() {
-      window.open(`http://205.185.124.239/#/backstage`)
+      window.open(`http://localhost/#/backstage`)
     },
     updateLogin(islogin, isLoginShow) {
       var login = this.$store.state.login;
